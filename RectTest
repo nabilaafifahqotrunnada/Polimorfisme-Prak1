@@ -11,5 +11,6 @@ public class RectTest {
         a.move(2, 1);
         a.isInside(2, 2);
         a.intersection(a);
+        System.out.println(a);
     }
 }
