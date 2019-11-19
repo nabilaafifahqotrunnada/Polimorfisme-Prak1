@@ -1,0 +1,15 @@
+package Prak1;
+
+/**
+ *
+ * @author nabila
+ */
+public class RectTest {
+
+    public static void main(String[] args) {
+        Rect a = new Rect(2,2);
+        a.move(2, 1);
+        a.isInside(2, 2);
+        a.intersection(a);
+    }
+}
